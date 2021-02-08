@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+}
+
+header{
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+header small{
+    color: rgb(194, 193, 193);
+    font-size: 19pt;
+}
+
+section{
+    background-color: #eeeeee;
+    padding: 20px;
+    width: 600px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+label{
+    font-weight: 700;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+input[type="text"]{
+    margin-top: 5px;
+    padding: 6px;
+    width: 585px;
+    border-radius: 5px;
+    border: 10px lightgrey;
+}
+
+button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(60, 128, 231);
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: rgb(73, 143, 248);
+    transition: .5s;
+}
+
+table{
+    margin: auto;
+}
+
+thead{
+    border-bottom-style: solid;
+    border-bottom-color: darkgrey;
+}
+
+th{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+td{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#excluir{
+    background-color: #d9534f;
+}
+
+#excluir:hover{
+    background-color: #c9302c;
+    transition: .5s;
+}
+
+@media screen and (max-width: 768px){
+    section{
+        width: 400px;
+    }
+    input[type="text"]{
+        width: 350px;
+    }
+    header{
+        font-size: 10pt;
+    }
+    header small{
+        font-size: 10pt;
+    }
+    table{
+        margin: auto;
+        width: 400px;
+    }
+    th{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+    td{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    body{
+        position: fixed;
+    }
+    section{
+        width: 300px;
+    }
+    input[type="text"]{
+        width: 250px;
+    }
+    table{
+        margin: auto;
+        width: 300px;
+    }
+    th{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+    td{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
