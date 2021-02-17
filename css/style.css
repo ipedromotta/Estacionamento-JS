@@ -32,6 +32,10 @@ input{
     margin-bottom: 10px;
 }
 
+input:focus{
+    background-color: rgb(188, 215, 255);
+}
+
 input[type="text"]{
     margin-top: 5px;
     padding: 6px;
@@ -51,12 +55,13 @@ button{
 }
 
 button:hover{
-    background-color: rgb(73, 143, 248);
-    transition: .5s;
+    background-color: rgb(30, 90, 180);
+    transition: .3s;
 }
 
 table{
     margin: auto;
+    text-align: center;
 }
 
 thead{
@@ -67,6 +72,11 @@ thead{
 th{
     padding-right: 50px;
     padding-left: 50px;
+}
+
+tr:hover{
+    color: red;
+    transition: .3s;
 }
 
 td{
@@ -80,7 +90,7 @@ td{
 
 #excluir:hover{
     background-color: #c9302c;
-    transition: .5s;
+    transition: .3s;
 }
 
 @media screen and (max-width: 768px){
